@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004d40;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+header .logo {
+  width: 120px;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: #e0f2f1;
+}
+
+.hero img {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.servicios {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  max-width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
